@@ -14,3 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SoundData
   animationName: HiphopDance
   songName: Matilda
+  noteChart: {fileID: 4900000, guid: f66e3e5bc51ffe64aa29cdd03ad4f595, type: 3}
+  speed: 800

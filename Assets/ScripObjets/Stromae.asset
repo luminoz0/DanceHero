@@ -14,3 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SoundData
   animationName: RobDance
   songName: alonealone
+  noteChart: {fileID: 4900000, guid: 76aad6ab5d308d74f8ed1a928f18a216, type: 3}
+  speed: 800

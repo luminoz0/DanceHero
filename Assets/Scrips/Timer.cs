@@ -30,11 +30,11 @@ public class Timer : MonoBehaviour
     private IEnumerator TimerRoutine(float duration)
     {
         float remainingTime = duration;
-        while (remainingTime > 0);
+        while (remainingTime > 0)
         {
             timerText.text = remainingTime.ToString("F0");
             textAnimator.Play(timerAnimationName, 0, 0f);
-            onSecondPassed. Invoke();
+            onSecondPassed.Invoke();
             yield return new WaitForSeconds(1f);
             remainingTime--;
         }
@@ -43,7 +43,7 @@ public class Timer : MonoBehaviour
     }
     public void StopTimer()
     {
-        if (timerCoroutine !=null)
+        if (timerCoroutine != null)
         {
             StopCoroutine(timerCoroutine);
             timerCoroutine = null;

@@ -14,3 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SoundData
   animationName: SnakeDance
   songName: EXXXTA$Y
+  noteChart: {fileID: 4900000, guid: fb1e649cf7279dd4da81a9bfeda43b0a, type: 3}
+  speed: 800

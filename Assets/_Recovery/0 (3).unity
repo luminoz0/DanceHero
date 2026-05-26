@@ -198,34 +198,10 @@ MonoBehaviour:
   animationName: Check
   onNoteChecked:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 137154658}
-        m_TargetAssemblyTypeName: NotesManager, Assembly-CSharp
-        m_MethodName: AddCorrectNote
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   onNoteMisssed:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 137154658}
-        m_TargetAssemblyTypeName: NotesManager, Assembly-CSharp
-        m_MethodName: RemoveCorrectNote
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!61 &49088197
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -443,74 +419,6 @@ Transform:
   - {fileID: 1157807822}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &137154657
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 137154659}
-  - component: {fileID: 137154658}
-  m_Layer: 0
-  m_Name: NotesManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &137154658
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 137154657}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd4f2b33c88c400448b43ac3f1f866c5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::NotesManager
-  _laneManager: {fileID: 1616395158}
-  _notesCheckInterval: 0.1
-  _finishTime: 1.5
-  _onWinSong:
-    m_PersistentCalls:
-      m_Calls: []
-  _onLoseSong:
-    m_PersistentCalls:
-      m_Calls: []
-  _onFinishSong:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 136607431}
-        m_TargetAssemblyTypeName: SoundManager, Assembly-CSharp
-        m_MethodName: StopMusic
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!4 &137154659
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 137154657}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7727.156, y: 0.00002, z: 26899.607}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &182612725
 GameObject:
   m_ObjectHideFlags: 0
@@ -646,34 +554,10 @@ MonoBehaviour:
   animationName: Check
   onNoteChecked:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 137154658}
-        m_TargetAssemblyTypeName: NotesManager, Assembly-CSharp
-        m_MethodName: AddCorrectNote
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   onNoteMisssed:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 137154658}
-        m_TargetAssemblyTypeName: NotesManager, Assembly-CSharp
-        m_MethodName: RemoveCorrectNote
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!61 &182612730
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1376,7 +1260,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: -358, y: 0.5}
-  m_SizeDelta: {x: 250, y: -1}
+  m_SizeDelta: {x: 330, y: -1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &593155008
 CanvasGroup:
@@ -1614,16 +1498,12 @@ PrefabInstance:
       value: BlueNote
       objectReference: {fileID: 0}
     - target: {fileID: 8292493923293671503, guid: 2e99edbe7bbd8dd4490d577d3f5055aa, type: 3}
-      propertyPath: m_Color.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8292493923293671503, guid: 2e99edbe7bbd8dd4490d577d3f5055aa, type: 3}
       propertyPath: m_Color.b
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8292493923293671503, guid: 2e99edbe7bbd8dd4490d577d3f5055aa, type: 3}
       propertyPath: m_Color.g
-      value: 0.054902196
+      value: 0.020216942
       objectReference: {fileID: 0}
     - target: {fileID: 8292493923293671503, guid: 2e99edbe7bbd8dd4490d577d3f5055aa, type: 3}
       propertyPath: m_Color.r
@@ -1781,19 +1661,6 @@ MonoBehaviour:
           m_StringArgument: Idle
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 137154658}
-        m_TargetAssemblyTypeName: NotesManager, Assembly-CSharp
-        m_MethodName: StopNotes
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Idle
-          m_BoolArgument: 0
-        m_CallState: 2
-  notesManager: {fileID: 137154658}
 --- !u!4 &766852981
 Transform:
   m_ObjectHideFlags: 0
@@ -2618,19 +2485,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NoteLimits
   onNotesLimitReached:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 137154658}
-        m_TargetAssemblyTypeName: NotesManager, Assembly-CSharp
-        m_MethodName: AddNoteCount
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!50 &1219973220
 Rigidbody2D:
   serializedVersion: 5
@@ -2715,7 +2570,6 @@ GameObject:
   - component: {fileID: 1233084161}
   - component: {fileID: 1233084160}
   - component: {fileID: 1233084159}
-  - component: {fileID: 1233084162}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -2827,30 +2681,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 137154658}
-        m_TargetAssemblyTypeName: NotesManager, Assembly-CSharp
-        m_MethodName: StopNotes
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1977780225}
-        m_TargetAssemblyTypeName: Timer, Assembly-CSharp
-        m_MethodName: StopTimer
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &1233084160
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2877,7 +2707,7 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1233084162}
+  mPreview: {fileID: 0}
 --- !u!4 &1233084161
 Transform:
   m_ObjectHideFlags: 0
@@ -2894,25 +2724,6 @@ Transform:
   - {fileID: 492311930}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1233084162
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1233084158}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Vuforia.Unity.Engine.dll::Vuforia.ImageTargetPreview
-  mObserverBehaviour: {fileID: 1233084160}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: diaBOLO
-  mDatasetName: 
-  mCastedBehaviour: {fileID: 1233084160}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!1 &1593595131
 GameObject:
   m_ObjectHideFlags: 0
@@ -3251,7 +3062,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 361, y: 0.5}
-  m_SizeDelta: {x: 250, y: -1}
+  m_SizeDelta: {x: 330, y: -1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &1814961459
 CanvasGroup:
@@ -3533,7 +3344,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  timerAnimationName: ShowAndDesappear
+  timerAnimationName: ShowAndDisappear
 --- !u!4 &1977780226
 Transform:
   m_ObjectHideFlags: 0
@@ -4026,4 +3837,3 @@ SceneRoots:
   - {fileID: 136607432}
   - {fileID: 1977780226}
   - {fileID: 1616395159}
-  - {fileID: 137154659}
