@@ -8,5 +8,4 @@ public class Lane : MonoBehaviour
    private GameObject notePrefab;
    public Transform NotesPivot => notePivot;
    public GameObject NotePrefab => notePrefab;
-
 }
